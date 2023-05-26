@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign02</title>
+    <link rel="stylesheet" href="./scripts/assign02.css">
+</head>
+<form action="#" oninput="out.value='hi, '+ salary.value" method="get">
+
+    <body style="width: 30%;margin: auto;">
+        <label for="Name">Name</label>
+        <input type="text" name="Name" id="Name" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="Name">password</label>
+        <input type="password" name="password" id="password" required minlength="8">
+        <label for="salary">salary</label>
+        <input type="range" name="salary" id="salary" min="1000" max="5000" step="500">
+        <output name="out">
+        </output>
+        <br>
+        <label for="age">age</label>
+        <input type="text" name="age" id="age">
+        <button>submit</button>
+</form>
+</body>
+
+</html>

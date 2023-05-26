@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./scripts/assign03.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="myaudio">
+            <h1>Music Player</h1>
+            <audio id="audioo" controls>
+                <source id="sourcee" src="./scripts/ambient-classical-guitar-144998.mp3" type="audio/mpeg">
+                </source>
+            </audio>
+
+
+            <div class="myAudioElement">
+                <span class="currentTime">0:00</span>
+                <input type="range" max="100" value="0" class="progress-bar">
+                <span class="duration">0:00</span>
+
+
+
+            </div>
+        </div>
+        <p id="para"></p>
+        <!-- <audio id="audio" autoplay></audio>
+                <source src="scripts/ambient-classical-guitar-144998.mp3">
+                </source> -->
+
+        <div class="controls">
+            <button id="play">Play</button>
+            <button id="repeat">repeat</button>
+            <button id="shuffle">shuffle</button>
+
+
+        </div>
+        <div id="records">
+            <p id="song1">song 1</p>
+
+            <p id="song2">song 2</p>
+
+            <p id="song3">song 3</p>
+
+            <p id="song4">song 4</p>
+
+        </div>
+
+    </div>
+
+    <script src="./scripts/assign03.js"></script>
+</body>
+
+</html>
